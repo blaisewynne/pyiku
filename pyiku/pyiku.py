@@ -17,11 +17,15 @@ class Pyiku:
                             count += 1
                 except IndexError:
                     continue 
+
+            if letter == 'y':
+                if word[index-1] in consonants:
+                    count += 1
             if index == word_length and letter == 'e':
                 break
         if count == 0:
             count += 1
-
+        #print(count)
         return count
 
     def is_haiku(haiku: str):
@@ -36,6 +40,4 @@ class Pyiku:
         if sum(total_syllables) == 17:
             return True
 
-
-
-
+Pyiku.is_haiku("This is a library, made for the public to use, made just for you")

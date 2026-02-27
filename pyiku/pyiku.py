@@ -39,5 +39,3 @@ class Pyiku:
 
         if sum(total_syllables) == 17:
             return True
-
-Pyiku.is_haiku("This is a library, made for the public to use, made just for you")

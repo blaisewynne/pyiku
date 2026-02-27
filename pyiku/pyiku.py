@@ -25,7 +25,6 @@ class Pyiku:
                 break
         if count == 0:
             count += 1
-        #print(count)
         return count
 
     def is_haiku(haiku: str):

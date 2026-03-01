@@ -17,4 +17,3 @@ Pyiku.is_haiku("This is a library, made for the public to use, made just for you
 #### Q: What is the practical use for this?
 #### A: See image below:
 <img width="476" height="589" alt="image" src="https://github.com/user-attachments/assets/bcd4e785-50b5-47a3-9372-d4e5cc23abdb" />
-

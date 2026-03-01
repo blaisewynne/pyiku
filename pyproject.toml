@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyiku"
+version = "0.8"
+description = "A Python library for detecting haiku(s)"
+authors = ["Blaise Wynne <blaise.wynne@gmail.com"]
+maintainers = ["Blaise Wynne <blaise.wynne@gmail.com"]
+license = "GPL-3.0+"
+readme = "README.md"
+repository = "https://github.com/blaisewynne/pyiku"
+keywords = ["library", "haiku"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Artistic Software"
+]

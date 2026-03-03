@@ -4,6 +4,11 @@
 ### `pyiku` is a library that detects haiku (haikus) in strings.
 ### Utilise the `Pyiku.is_haiku` function to detect if a string is a haiku.
 
+## Installation
+
+### Currently the package is only on TestPyPi, so to download it, run this command:
+###`pip install -i https://test.pypi.org/simple/ pyiku==1.2`
+
 ## Usage
 ```
 Pyiku.is_haiku("This is a library, made for the public to use, made just for you")

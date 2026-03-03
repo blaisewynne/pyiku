@@ -1,13 +1,16 @@
-[tool.poetry]
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
 name = "pyiku"
-version = "0.8"
+version = "1.2"
 description = "A Python library for detecting haiku(s)"
-authors = ["Blaise Wynne <blaise.wynne@gmail.com"]
-maintainers = ["Blaise Wynne <blaise.wynne@gmail.com"]
+authors = [{ name="Blaise Wynne", email="blaise.wynne@gmail.com" }]
+maintainers = [{ name="Blaise Wynne", email="blaise.wynne@gmail.com" }]
 license = "GPL-3.0+"
 readme = "README.md"
-repository = "https://github.com/blaisewynne/pyiku"
-keywords = ["library", "haiku"]
+requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 1 - Planning",
     "Environment :: Console",
@@ -16,3 +19,10 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
     "Topic :: Artistic Software"
 ]
+
+[project.urls]
+"Homepage" = "https://github.com/blaisewynne/pyiku"
+"Bug Tracker" = "https://github.com/blaisewynne/pyiku/issues"
+
+[tool.setuptools]
+packages = ["pyiku"]

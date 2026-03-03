@@ -7,13 +7,12 @@ class Pyiku:
         word = word.lower()
 
         for index, letter in enumerate(word):
-
             if letter in vowels:
                 try:
                     if index != word_length:
                         if word[index+1] in vowels:
                             count += 1
-                        elif word[index-1] in consonants:
+                        elif word[index-1] in consonants and letter != 'e':
                             count += 1
                 except IndexError:
                     continue 
@@ -38,3 +37,5 @@ class Pyiku:
 
         if sum(total_syllables) == 17:
             return True
+        else:
+            return False

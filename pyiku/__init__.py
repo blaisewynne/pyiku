@@ -1,1 +1,1 @@
-from pyiku.pyiku import Pyiku
+from pyiku import Pyiku 

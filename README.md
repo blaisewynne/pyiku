@@ -7,7 +7,7 @@
 ## Installation
 
 ### Currently the package is only on TestPyPi, so to download it, run this command:
-`pip install -i https://test.pypi.org/simple/ pyiku==1.2`
+`pip install -i https://test.pypi.org/simple/ pyiku`
 
 ## Usage
 ```
